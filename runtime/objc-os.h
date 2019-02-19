@@ -256,6 +256,8 @@ ClearExclusive(uintptr_t *dst __unused)
 
 #if !TARGET_OS_IPHONE
 #   include <CrashReporterClient.h>
+    #define CRGetCrashLogMessage() 0
+    #define CRSetCrashLogMessage(x) /* nothing */
 #else
     // CrashReporterClient not yet available on iOS
     __BEGIN_DECLS

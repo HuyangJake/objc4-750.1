@@ -40,6 +40,34 @@
 		75A9504F202BAA0600D7D56F /* objc-locks-new.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A9504E202BAA0300D7D56F /* objc-locks-new.h */; };
 		75A95051202BAA9A00D7D56F /* objc-locks.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A95050202BAA9A00D7D56F /* objc-locks.h */; };
 		75A95053202BAC4100D7D56F /* objc-lockdebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A95052202BAC4100D7D56F /* objc-lockdebug.h */; };
+		7B2A792C221BD73100462C99 /* reason.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A792B221BD73000462C99 /* reason.h */; };
+		7B2A792D221BD73100462C99 /* reason.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A792B221BD73000462C99 /* reason.h */; };
+		7B2A793E221BD7F900462C99 /* dyld_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7934221BD7F900462C99 /* dyld_priv.h */; };
+		7B2A793F221BD7F900462C99 /* dyld_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7934221BD7F900462C99 /* dyld_priv.h */; };
+		7B2A794D221BD85100462C99 /* lock_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7943221BD85100462C99 /* lock_private.h */; };
+		7B2A794E221BD85100462C99 /* lock_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7943221BD85100462C99 /* lock_private.h */; };
+		7B2A7960221BD86D00462C99 /* base_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A795F221BD86D00462C99 /* base_private.h */; };
+		7B2A7961221BD86D00462C99 /* base_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A795F221BD86D00462C99 /* base_private.h */; };
+		7B2A7972221BD8A700462C99 /* tsd_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7966221BD8A700462C99 /* tsd_private.h */; };
+		7B2A7973221BD8A700462C99 /* tsd_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7966221BD8A700462C99 /* tsd_private.h */; };
+		7B2A7981221BD95600462C99 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7980221BD95600462C99 /* cpu_capabilities.h */; };
+		7B2A7982221BD95600462C99 /* cpu_capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7980221BD95600462C99 /* cpu_capabilities.h */; };
+		7B2A7987221BD9FA00462C99 /* spinlock_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7986221BD9FA00462C99 /* spinlock_private.h */; };
+		7B2A7988221BD9FA00462C99 /* spinlock_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7986221BD9FA00462C99 /* spinlock_private.h */; };
+		7B2A798A221BDC5E00462C99 /* tsd.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7989221BDC5E00462C99 /* tsd.h */; };
+		7B2A798B221BDC5E00462C99 /* tsd.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7989221BDC5E00462C99 /* tsd.h */; };
+		7B2A7990221BDD2D00462C99 /* pthread_machdep.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A798F221BDD2D00462C99 /* pthread_machdep.h */; };
+		7B2A7991221BDD2D00462C99 /* pthread_machdep.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A798F221BDD2D00462C99 /* pthread_machdep.h */; };
+		7B2A7993221BE44100462C99 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7992221BE44100462C99 /* CrashReporterClient.h */; };
+		7B2A7994221BE44100462C99 /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7992221BE44100462C99 /* CrashReporterClient.h */; };
+		7B2A7996221BE73300462C99 /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7995221BE73300462C99 /* Block_private.h */; };
+		7B2A7997221BE73300462C99 /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7995221BE73300462C99 /* Block_private.h */; };
+		7B2A7999221BE80D00462C99 /* objc-shared-cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7998221BE80D00462C99 /* objc-shared-cache.h */; };
+		7B2A799A221BE80D00462C99 /* objc-shared-cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A7998221BE80D00462C99 /* objc-shared-cache.h */; };
+		7B2A799C221BEA1800462C99 /* isa.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A799B221BEA1800462C99 /* isa.h */; };
+		7B2A799D221BEA1800462C99 /* isa.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A799B221BEA1800462C99 /* isa.h */; };
+		7B2A799F221BEA6C00462C99 /* _simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A799E221BEA6C00462C99 /* _simple.h */; };
+		7B2A79A0221BEA6C00462C99 /* _simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B2A799E221BEA6C00462C99 /* _simple.h */; };
 		8306440920D24A5D00E356D2 /* objc-block-trampolines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8306440620D24A3E00E356D2 /* objc-block-trampolines.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		830F2A740D737FB800392440 /* objc-msg-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A690D737FB800392440 /* objc-msg-arm.s */; };
 		830F2A750D737FB900392440 /* objc-msg-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A6A0D737FB800392440 /* objc-msg-i386.s */; };
@@ -146,6 +174,21 @@
 		75A9504E202BAA0300D7D56F /* objc-locks-new.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "objc-locks-new.h"; path = "runtime/objc-locks-new.h"; sourceTree = "<group>"; };
 		75A95050202BAA9A00D7D56F /* objc-locks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-locks.h"; path = "runtime/objc-locks.h"; sourceTree = "<group>"; };
 		75A95052202BAC4100D7D56F /* objc-lockdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "objc-lockdebug.h"; path = "runtime/objc-lockdebug.h"; sourceTree = "<group>"; };
+		7B2A792B221BD73000462C99 /* reason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reason.h; sourceTree = "<group>"; };
+		7B2A7934221BD7F900462C99 /* dyld_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dyld_priv.h; sourceTree = "<group>"; };
+		7B2A7943221BD85100462C99 /* lock_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lock_private.h; sourceTree = "<group>"; };
+		7B2A795F221BD86D00462C99 /* base_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base_private.h; sourceTree = "<group>"; };
+		7B2A7966221BD8A700462C99 /* tsd_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tsd_private.h; sourceTree = "<group>"; };
+		7B2A7980221BD95600462C99 /* cpu_capabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_capabilities.h; sourceTree = "<group>"; };
+		7B2A7986221BD9FA00462C99 /* spinlock_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spinlock_private.h; sourceTree = "<group>"; };
+		7B2A7989221BDC5E00462C99 /* tsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tsd.h; sourceTree = "<group>"; };
+		7B2A798F221BDD2D00462C99 /* pthread_machdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pthread_machdep.h; sourceTree = "<group>"; };
+		7B2A7992221BE44100462C99 /* CrashReporterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporterClient.h; sourceTree = "<group>"; };
+		7B2A7995221BE73300462C99 /* Block_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block_private.h; sourceTree = "<group>"; };
+		7B2A7998221BE80D00462C99 /* objc-shared-cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "objc-shared-cache.h"; sourceTree = "<group>"; };
+		7B2A799B221BEA1800462C99 /* isa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = isa.h; path = runtime/isa.h; sourceTree = SOURCE_ROOT; };
+		7B2A799E221BEA6C00462C99 /* _simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _simple.h; sourceTree = "<group>"; };
+		7B2A79A2221C013700462C99 /* libobjc.order */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libobjc.order; sourceTree = "<group>"; };
 		8306440620D24A3E00E356D2 /* objc-block-trampolines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "objc-block-trampolines.h"; path = "runtime/objc-block-trampolines.h"; sourceTree = "<group>"; };
 		830F2A690D737FB800392440 /* objc-msg-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-arm.s"; path = "runtime/Messengers.subproj/objc-msg-arm.s"; sourceTree = "<group>"; };
 		830F2A6A0D737FB800392440 /* objc-msg-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-i386.s"; path = "runtime/Messengers.subproj/objc-msg-i386.s"; sourceTree = "<group>"; };
@@ -162,7 +205,6 @@
 		83725F4914CA5BFA0014370E /* objc-opt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "objc-opt.mm"; path = "runtime/objc-opt.mm"; sourceTree = "<group>"; };
 		8379996D13CBAF6F007C2B5F /* objc-blocktramps-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-blocktramps-arm64.s"; path = "runtime/objc-blocktramps-arm64.s"; sourceTree = "<group>"; };
 		8383A3A1122600E9009290B8 /* objc-blocktramps-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-blocktramps-arm.s"; path = "runtime/objc-blocktramps-arm.s"; sourceTree = "<group>"; };
-		838485B30D6D682B00CEA253 /* libobjc.order */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libobjc.order; sourceTree = "<group>"; };
 		838485B40D6D683300CEA253 /* APPLE_LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = APPLE_LICENSE; sourceTree = "<group>"; };
 		838485B50D6D683300CEA253 /* ReleaseNotes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReleaseNotes.rtf; sourceTree = "<group>"; };
 		838485B70D6D687300CEA253 /* hashtable2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hashtable2.h; path = runtime/hashtable2.h; sourceTree = "<group>"; };
@@ -255,6 +297,7 @@
 		08FB7794FE84155DC02AAC07 /* objc */ = {
 			isa = PBXGroup;
 			children = (
+				7B2A7921221BB5E600462C99 /* Common */,
 				BC8B5D1212D3D48100C78A5B /* libauto.dylib */,
 				838485C60D6D687700CEA253 /* Public Headers */,
 				838485C70D6D688200CEA253 /* Private Headers */,
@@ -329,6 +372,75 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7B2A7921221BB5E600462C99 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7B2A799E221BEA6C00462C99 /* _simple.h */,
+				7B2A799B221BEA1800462C99 /* isa.h */,
+				7B2A7998221BE80D00462C99 /* objc-shared-cache.h */,
+				7B2A7995221BE73300462C99 /* Block_private.h */,
+				7B2A7992221BE44100462C99 /* CrashReporterClient.h */,
+				7B2A797E221BD93300462C99 /* System */,
+				7B2A7962221BD8A700462C99 /* pthread */,
+				7B2A7942221BD85100462C99 /* os */,
+				7B2A792F221BD7F900462C99 /* mach-o */,
+				7B2A7925221BD44300462C99 /* sys */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7B2A7925221BD44300462C99 /* sys */ = {
+			isa = PBXGroup;
+			children = (
+				7B2A792B221BD73000462C99 /* reason.h */,
+			);
+			path = sys;
+			sourceTree = "<group>";
+		};
+		7B2A792F221BD7F900462C99 /* mach-o */ = {
+			isa = PBXGroup;
+			children = (
+				7B2A7934221BD7F900462C99 /* dyld_priv.h */,
+			);
+			path = "mach-o";
+			sourceTree = "<group>";
+		};
+		7B2A7942221BD85100462C99 /* os */ = {
+			isa = PBXGroup;
+			children = (
+				7B2A795F221BD86D00462C99 /* base_private.h */,
+				7B2A7989221BDC5E00462C99 /* tsd.h */,
+				7B2A7943221BD85100462C99 /* lock_private.h */,
+			);
+			path = os;
+			sourceTree = "<group>";
+		};
+		7B2A7962221BD8A700462C99 /* pthread */ = {
+			isa = PBXGroup;
+			children = (
+				7B2A7986221BD9FA00462C99 /* spinlock_private.h */,
+				7B2A7966221BD8A700462C99 /* tsd_private.h */,
+			);
+			path = pthread;
+			sourceTree = "<group>";
+		};
+		7B2A797E221BD93300462C99 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				7B2A798F221BDD2D00462C99 /* pthread_machdep.h */,
+				7B2A797F221BD94300462C99 /* machine */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		7B2A797F221BD94300462C99 /* machine */ = {
+			isa = PBXGroup;
+			children = (
+				7B2A7980221BD95600462C99 /* cpu_capabilities.h */,
+			);
+			path = machine;
+			sourceTree = "<group>";
+		};
 		838485B20D6D67F900CEA253 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,7 +448,7 @@
 				838485B40D6D683300CEA253 /* APPLE_LICENSE */,
 				838485B50D6D683300CEA253 /* ReleaseNotes.rtf */,
 				83CE671D1E6E76B60095A33E /* interposable.txt */,
-				838485B30D6D682B00CEA253 /* libobjc.order */,
+				7B2A79A2221C013700462C99 /* libobjc.order */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -432,7 +544,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2A798B221BDC5E00462C99 /* tsd.h in Headers */,
+				7B2A793F221BD7F900462C99 /* dyld_priv.h in Headers */,
+				7B2A792D221BD73100462C99 /* reason.h in Headers */,
 				8306440920D24A5D00E356D2 /* objc-block-trampolines.h in Headers */,
+				7B2A7991221BDD2D00462C99 /* pthread_machdep.h in Headers */,
+				7B2A7982221BD95600462C99 /* cpu_capabilities.h in Headers */,
+				7B2A799D221BEA1800462C99 /* isa.h in Headers */,
+				7B2A7997221BE73300462C99 /* Block_private.h in Headers */,
+				7B2A7988221BD9FA00462C99 /* spinlock_private.h in Headers */,
+				7B2A79A0221BEA6C00462C99 /* _simple.h in Headers */,
+				7B2A799A221BE80D00462C99 /* objc-shared-cache.h in Headers */,
+				7B2A7994221BE44100462C99 /* CrashReporterClient.h in Headers */,
+				7B2A7961221BD86D00462C99 /* base_private.h in Headers */,
+				7B2A794E221BD85100462C99 /* lock_private.h in Headers */,
+				7B2A7973221BD8A700462C99 /* tsd_private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,20 +567,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A4AEDE1EA08C7200ACADDE /* ObjectiveC.apinotes in Headers */,
+				7B2A7972221BD8A700462C99 /* tsd_private.h in Headers */,
 				75A95051202BAA9A00D7D56F /* objc-locks.h in Headers */,
 				83A4AEDC1EA0840800ACADDE /* module.modulemap in Headers */,
 				830F2A980D738DC200392440 /* hashtable.h in Headers */,
 				838485BF0D6D687300CEA253 /* hashtable2.h in Headers */,
+				7B2A793E221BD7F900462C99 /* dyld_priv.h in Headers */,
 				838486260D6D68F000CEA253 /* List.h in Headers */,
+				7B2A792C221BD73100462C99 /* reason.h in Headers */,
 				838485C30D6D687300CEA253 /* maptable.h in Headers */,
 				838486280D6D6A2400CEA253 /* message.h in Headers */,
 				834EC0A411614167009B2563 /* objc-abi.h in Headers */,
+				7B2A799C221BEA1800462C99 /* isa.h in Headers */,
 				838485EF0D6D68A200CEA253 /* objc-api.h in Headers */,
 				838485F00D6D68A200CEA253 /* objc-auto.h in Headers */,
 				838485F40D6D68A200CEA253 /* objc-class.h in Headers */,
 				838485F60D6D68A200CEA253 /* objc-config.h in Headers */,
+				7B2A7996221BE73300462C99 /* Block_private.h in Headers */,
+				7B2A7990221BDD2D00462C99 /* pthread_machdep.h in Headers */,
 				838485F80D6D68A200CEA253 /* objc-exception.h in Headers */,
 				83BE02E80FCCB24D00661494 /* objc-file-old.h in Headers */,
+				7B2A7999221BE80D00462C99 /* objc-shared-cache.h in Headers */,
 				83BE02E90FCCB24D00661494 /* objc-file.h in Headers */,
 				75A9504F202BAA0600D7D56F /* objc-locks-new.h in Headers */,
 				834266D80E665A8B002E4DA2 /* objc-gdb.h in Headers */,
@@ -462,7 +595,11 @@
 				7593EC58202248E50046AB96 /* objc-object.h in Headers */,
 				83112ED40F00599600A5FBAF /* objc-internal.h in Headers */,
 				838485FE0D6D68A200CEA253 /* objc-load.h in Headers */,
+				7B2A798A221BDC5E00462C99 /* tsd.h in Headers */,
+				7B2A7987221BD9FA00462C99 /* spinlock_private.h in Headers */,
 				838486000D6D68A200CEA253 /* objc-loadmethod.h in Headers */,
+				7B2A7993221BE44100462C99 /* CrashReporterClient.h in Headers */,
+				7B2A799F221BEA6C00462C99 /* _simple.h in Headers */,
 				75A95053202BAC4100D7D56F /* objc-lockdebug.h in Headers */,
 				831C85D50E10CF850066E64C /* objc-os.h in Headers */,
 				838486030D6D68A200CEA253 /* objc-private.h in Headers */,
@@ -471,6 +608,8 @@
 				83BE02EA0FCCB24D00661494 /* objc-runtime-old.h in Headers */,
 				8384860A0D6D68A200CEA253 /* objc-runtime.h in Headers */,
 				8384860C0D6D68A200CEA253 /* objc-sel-set.h in Headers */,
+				7B2A794D221BD85100462C99 /* lock_private.h in Headers */,
+				7B2A7960221BD86D00462C99 /* base_private.h in Headers */,
 				838486100D6D68A200CEA253 /* objc-sync.h in Headers */,
 				838486130D6D68A200CEA253 /* objc.h in Headers */,
 				838486140D6D68A200CEA253 /* Object.h in Headers */,
@@ -479,6 +618,7 @@
 				39ABD72312F0B61800D1054C /* objc-weak.h in Headers */,
 				83F4B52815E843B100E0926F /* NSObjCRuntime.h in Headers */,
 				83F4B52915E843B100E0926F /* NSObject.h in Headers */,
+				7B2A7981221BD95600462C99 /* cpu_capabilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +717,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -x\n/usr/bin/xcrun -sdk macosx.internal clang++ -Wall -mmacosx-version-min=10.12 -arch x86_64 -std=c++11 \"${SRCROOT}/markgc.cpp\" -o \"${BUILT_PRODUCTS_DIR}/markgc\"\n\"${BUILT_PRODUCTS_DIR}/markgc\" \"${BUILT_PRODUCTS_DIR}/libobjc.A.dylib\"";
+			shellScript = "set -x\n/usr/bin/xcrun -sdk macosx clang++ -Wall -mmacosx-version-min=10.12 -arch x86_64 -std=c++11 \"${SRCROOT}/markgc.cpp\" -o \"${BUILT_PRODUCTS_DIR}/markgc\"\n\"${BUILT_PRODUCTS_DIR}/markgc\" \"${BUILT_PRODUCTS_DIR}/libobjc.A.dylib\"\n";
 		};
 		830F2AFA0D73BC5800392440 /* Run Script (symlink) */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -709,10 +849,11 @@
 					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
 					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
 					/System/Library/Frameworks/System.framework/PrivateHeaders,
+					"$(SRCROOT)/Common",
 				);
 				INSTALL_PATH = /usr/lib;
 				IS_ZIPPERED = YES;
-				ORDER_FILE = "$(SDKROOT)/AppleInternal/OrderFiles/libobjc.order";
+				ORDER_FILE = "$(SRCROOT)/libobjc.order";
 				"ORDER_FILE[sdk=iphonesimulator*]" = "";
 				OTHER_CFLAGS = (
 					"-fdollars-in-identifiers",
@@ -742,7 +883,6 @@
 					interposable.txt,
 				);
 				"OTHER_LDFLAGS[sdk=macosx*]" = (
-					"-lCrashReporterClient",
 					"-lc++abi",
 					"-Xlinker",
 					"-sectalign",
@@ -757,13 +897,14 @@
 					"-Xlinker",
 					interposable.txt,
 				);
-				OTHER_TAPI_FLAGS = "-exclude-public-header $(DSTROOT)/usr/include/objc/ObjectiveC.apinotes -exclude-public-header $(DSTROOT)/usr/include/objc/module.modulemap -Xparser -Wno-deprecated-declarations -Xparser -Wno-unavailable-declarations -Xparser -D_OBJC_PRIVATE_H_=1 -DOBJC_DECLARE_SYMBOLS=1";
+				OTHER_TAPI_FLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/objc;
 				PRODUCT_NAME = objc.A;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include/objc;
 				SUPPORTS_TEXT_BASED_API = YES;
-				TAPI_VERIFY_MODE = Pedantic;
+				TAPI_VERIFY_MODE = ErrorsOnly;
 				UNEXPORTED_SYMBOLS_FILE = unexported_symbols;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -783,10 +924,11 @@
 					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
 					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
 					/System/Library/Frameworks/System.framework/PrivateHeaders,
+					"$(SRCROOT)/Common",
 				);
 				INSTALL_PATH = /usr/lib;
 				IS_ZIPPERED = YES;
-				ORDER_FILE = "$(SDKROOT)/AppleInternal/OrderFiles/libobjc.order";
+				ORDER_FILE = "$(SRCROOT)/libobjc.order";
 				"ORDER_FILE[sdk=iphonesimulator*]" = "";
 				OTHER_CFLAGS = (
 					"-fdollars-in-identifiers",
@@ -816,7 +958,6 @@
 					interposable.txt,
 				);
 				"OTHER_LDFLAGS[sdk=macosx*]" = (
-					"-lCrashReporterClient",
 					"-lc++abi",
 					"-Xlinker",
 					"-sectalign",
@@ -831,13 +972,14 @@
 					"-Xlinker",
 					interposable.txt,
 				);
-				OTHER_TAPI_FLAGS = "-exclude-public-header $(DSTROOT)/usr/include/objc/ObjectiveC.apinotes -exclude-public-header $(DSTROOT)/usr/include/objc/module.modulemap -Xparser -Wno-deprecated-declarations -Xparser -Wno-unavailable-declarations -Xparser -D_OBJC_PRIVATE_H_=1 -DOBJC_DECLARE_SYMBOLS=1";
+				OTHER_TAPI_FLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = /usr/local/include/objc;
 				PRODUCT_NAME = objc.A;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include/objc;
 				SUPPORTS_TEXT_BASED_API = YES;
-				TAPI_VERIFY_MODE = Pedantic;
+				TAPI_VERIFY_MODE = ErrorsOnly;
 				UNEXPORTED_SYMBOLS_FILE = unexported_symbols;
+				VALID_ARCHS = x86_64;
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"-Wglobal-constructors",
@@ -983,9 +1125,11 @@
 					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
 					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
 					/System/Library/Frameworks/System.framework/PrivateHeaders,
+					"$(SRCROOT)/Common",
 				);
 				INSTALL_PATH = /usr/lib;
 				IS_ZIPPERED = YES;
+				ORDER_FILE = "$(SRCROOT)/libobjc.order";
 				OTHER_CFLAGS = (
 					"-fdollars-in-identifiers",
 					"$(OTHER_CFLAGS)",
@@ -999,6 +1143,8 @@
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include/objc;
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = Pedantic;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -1018,9 +1164,11 @@
 					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
 					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
 					/System/Library/Frameworks/System.framework/PrivateHeaders,
+					"$(SRCROOT)/Common",
 				);
 				INSTALL_PATH = /usr/lib;
 				IS_ZIPPERED = YES;
+				ORDER_FILE = "$(SRCROOT)/libobjc.order";
 				OTHER_CFLAGS = (
 					"-fdollars-in-identifiers",
 					"$(OTHER_CFLAGS)",
@@ -1034,6 +1182,8 @@
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include/objc;
 				SUPPORTS_TEXT_BASED_API = YES;
 				TAPI_VERIFY_MODE = Pedantic;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
